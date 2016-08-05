@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+}
+#header{
+text-align: center;
+font-size: 60px;
+
+}
+div{
+	border: 1px solid;
+	margin-top: 0;
+	text-align: center;
+
+}
+#head1{
+	float: left;
+	width: 25%;
+	height: 71px;
+	}
+
+#head2{
+	float: left;
+	width: 25%;
+	height: 71px;
+}
+
+#head3{
+	float:left;
+	width: 25%;
+	height: 71px;
+}
+
+#head4{
+	float: left;
+	width: 25%;
+	height: 71px;
+}
+
+#content{
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	background-color: red;
+	padding: 5px;
+}
+.contentdivs{
+	margin: 5px;
+	
+}
+#headerlinks{
+	background-color: white;
+	width: 15%;
+	height: 20px;
+	float: left;
+}
+
+#headermain{
+	background-color: white;
+	width: 57%;
+	height: 20px;
+	float: left;
+
+}
+#headeraside{
+	background-color: white;
+	width: 25.5%;
+	height: 20px;
+	float: left;
+}
+
+#links{
+	background-color: white;
+	width: 15%;
+	height: 500px;
+	float: left;
+	text-align: left;
+}
+#main{
+	background-color: white;
+	width: 57%;
+	height: 500px;
+	float: left;
+	text-align: left;
+}
+#aside{
+	background-color: white;
+	width: 25.5%;
+	height: 500px;	
+	float: left;
+}
+.contentdivs img{
+	padding-top: 20px;
+}
+#main img{
+	padding-right: 20px;
+}
+#main p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
