@@ -3,38 +3,32 @@
 }
 #header{
 text-align: center;
-font-size: 60px;
-
 }
+
 div{
 	border: 1px solid;
 	margin-top: 0;
 	text-align: center;
 
 }
-#head1{
-	float: left;
-	width: 25%;
-	height: 71px;
-	}
-
-#head2{
-	float: left;
-	width: 25%;
-	height: 71px;
-}
-
-#head3{
-	float:left;
-	width: 25%;
-	height: 71px;
-}
-
+#head1,
+#head2,
+#head3,
 #head4{
+	font-size: 50px;
 	float: left;
 	width: 25%;
 	height: 71px;
-}
+	background: white;
+    -webkit-transition: background 1s;
+    transition: background 1s;
+	}
+#head1:hover,
+#head2:hover,
+#head3:hover,
+#head4:hover{
+background-color: red;
+	}	
 
 #content{
 	margin-top: 10px;
